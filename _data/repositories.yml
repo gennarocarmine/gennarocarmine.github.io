@@ -5,4 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - gennarocarmine/Audire
-  -
+  - a-stefanile/TSW-Project
+  - gennarocarmine/guitar-tablature-generation
+  - gennarocarmine/italy-road-accident-analysis
+  - gennarocarmine/ehr-database-system
