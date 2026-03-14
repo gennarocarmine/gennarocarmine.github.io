@@ -21,14 +21,13 @@ cv:
       - institution: University of Salerno
         location: Fisciano, (SA) Italy
         url: https://www.unisa.it/
-        area: Computer Science
-        studyType: Bachelor's Degree in Computer Science
+        studyType: Bachelor's Degree in Computer Science (L-31)
         start_date: 2023
         end_date: Present
         score: ""
-        courses: ""
-        highlights:
-          - Description 1.
+        #courses: ""
+        #highlights:
+        #  - Description 1.
 
       - institution: I.I.S. "Basilio Focaccia"
         location: Salerno, (SA) Italy
@@ -44,12 +43,6 @@ cv:
     #     start_date: 2024
     #     summary: Descrizione...
 
-    Volunteer:
-      - company: Parrocchia San Gregorio VII
-        location: Battipaglia, SA, Italy
-        start_date: 2023
-        end_date: Present
-        summary: Along with my girlfriend, I guide a post-confirmation group of the Azione Cattolica of young people (14-18 years old) on their path of faith.
 
     Languages:
       - name: Italian
@@ -57,6 +50,13 @@ cv:
 
       - name: English
         summary: "B1"
+
+    Volunteer:
+      - company: Parrocchia San Gregorio VII
+        location: Battipaglia, SA, Italy
+        start_date: 2022
+        end_date: Present
+        summary: Until 2023, I was involved in the Christian education of children aged 6 to 14. Since 2023 I have been appointed for a three-year period responsible for the sector and I follow a group of adolescents aged 14 to 18 working closely together with other educators for the conception, promotion and active management of meetings and events.
 
     Hobbies:
       - bullet: I started playing guitar in 2021, refining my technique through my local church choir San Gregorio VII. Bridging music and technology, I specialize in using the ChordPro format for notation and actively contribute to the Canti Cristiani app (User:G3nny25). My academic curiosity led me to a university Mathematics course exploring generative music, plagiarism detection, and algorithmic composition.
