@@ -2,7 +2,7 @@ cv:
   name: Gennaro Carmine Tozza
   label: Computer Science Student
   email: tozza.gennarocarmine@gmail.com
-  location: Battipaglia, SA, Italy
+  location:
 
   social_networks:
     - network: GitHub
@@ -12,8 +12,8 @@ cv:
 
   address:
     city: Battipaglia
-    region: Salerno
-    postalCode: SA 84091
+    region: Salerno,
+    postalCode: 84091
     countryCode: IT
 
   sections:
@@ -62,6 +62,10 @@ cv:
       - bullet: I started playing guitar in 2021, refining my technique through my local church choir San Gregorio VII. Bridging music and technology, I specialize in using the ChordPro format for notation and actively contribute to the Canti Cristiani app (User:G3nny25). My academic curiosity led me to a university Mathematics course exploring generative music, plagiarism detection, and algorithmic composition.
 
     Interests:
+      - name: Technology
+        icon: fa-solid fa-computer
+        keywords: "Computer Science, Cybersecurity, Databases"
+
       - name: Music
         icon: fa-solid fa-music
         keywords: "Music, Guitar, Music Performance, Music Technology"
