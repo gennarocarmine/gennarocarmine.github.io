@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - gennarocarmine/bachelor-thesis-tozza
   - gennarocarmine/Audire
   - a-stefanile/TSW-Project
   - gennarocarmine/guitar-tablature-generation

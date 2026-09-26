@@ -1,6 +1,6 @@
 cv:
   name: Gennaro Carmine Tozza
-  label: Computer Science Student
+  label: Master's Student in Computer Science
   email: tozza.gennarocarmine@gmail.com
   location:
 
@@ -21,13 +21,23 @@ cv:
       - institution: University of Salerno
         location: Fisciano, (SA) Italy
         url: https://www.unisa.it/
-        studyType: Bachelor's Degree in Computer Science (L-31)
-        start_date: 2023
+        studyType: Master's Degree in Computer Science (LM-18)
+        start_date: 2026
         end_date: Present
         score: ""
-        #courses: ""
-        #highlights:
-        #  - Description 1.
+
+      - institution: University of Salerno
+        location: Fisciano, (SA) Italy
+        url: https://www.unisa.it/
+        studyType: Bachelor's Degree in Computer Science (L-31)
+        start_date: 2023
+        end_date: 2026
+        score: "100/110"
+        highlights:
+          - "Final grade: 100/110"
+          - "Thesis: *Crittografia visuale e calcolo sicuro: implementazione in Python del protocollo V2PC* (Visual cryptography and secure computation: a Python implementation of the V2PC protocol)"
+          - "Supervisor: Prof. Roberto De Prisco"
+          - "Code: [gennarocarmine/bachelor-thesis-tozza](https://github.com/gennarocarmine/bachelor-thesis-tozza)"
 
       - institution: I.I.S. "Basilio Focaccia"
         location: Salerno, (SA) Italy
