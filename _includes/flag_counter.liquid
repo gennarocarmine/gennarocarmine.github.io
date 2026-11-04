@@ -1,0 +1,27 @@
+{% comment %}
+  Flag Counter (https://flagcounter.com): visitatori per nazione.
+  Colori allineati ai token del tema (_sass/_themes.scss) e aggiornati al cambio light/dark.
+{% endcomment %}
+<div class="flag-counter text-center mt-5">
+  <a href="https://info.flagcounter.com/{{ site.flag_counter.id }}" target="_blank" rel="noopener">
+    <img id="flag-counter-img" alt="Flag Counter: visitatori per nazione" loading="lazy" style="max-width: 100%">
+  </a>
+</div>
+<script>
+  (() => {
+    const img = document.getElementById("flag-counter-img");
+    const base = "https://{{ site.flag_counter.server | default: 's05' }}.flagcounter.com/count2/{{ site.flag_counter.id }}";
+    // ponytail: hex fissi copiati da _variables.scss (Flag Counter non accetta CSS vars)
+    const palette = {
+      light: { bg: "FFFFFF", txt: "000000", border: "E6E6E6" },
+      dark: { bg: "1C1C1D", txt: "E8E8E8", border: "424246" },
+    };
+    const render = () => {
+      const c = palette[document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light"];
+      const src = `${base}/bg_${c.bg}/txt_${c.txt}/border_${c.border}/columns_{{ site.flag_counter.columns | default: 3 }}/maxflags_{{ site.flag_counter.max_flags | default: 12 }}/viewers_0/labels_1/pageviews_1/flags_0/percent_0/`;
+      if (img.src !== src) img.src = src;
+    };
+    render();
+    new MutationObserver(render).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  })();
+</script>
