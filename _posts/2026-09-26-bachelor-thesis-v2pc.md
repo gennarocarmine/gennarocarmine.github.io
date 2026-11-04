@@ -58,9 +58,9 @@ Implementing a protocol is a very different exercise from reading about it. A fe
 
 ## What's next
 
-With the Bachelor's degree completed, I have started the **Master's Degree in Computer Science** at the University of Salerno. Cryptography and theoretical computer science remain the areas I want to explore more deeply.
+With the Bachelor's degree completed, I have started the **Master's Degree in Computer Science** at the University of Salerno. Cryptography remain the area I want to explore more deeply.
 
-I would like to thank Prof. De Prisco for his guidance throughout this work. If you are curious, feel free to try the code, open an issue, or get in touch!
+I would like to thank [Prof. De Prisco](https://intranet.di.unisa.it/~robdep/) for his guidance throughout this work. If you are curious, feel free to try the code, open an issue, or get in touch!
 
 ## References
 

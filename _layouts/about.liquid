@@ -76,5 +76,10 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+
+    <!-- Flag Counter -->
+    {% if site.flag_counter.id %}
+      {% include flag_counter.liquid %}
+    {% endif %}
   </article>
 </div>
