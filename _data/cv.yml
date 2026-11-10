@@ -55,7 +55,6 @@ cv:
     #     start_date: 2024
     #     summary: Descrizione...
 
-
     Languages:
       - name: Italian
         summary: "Native speaker"
